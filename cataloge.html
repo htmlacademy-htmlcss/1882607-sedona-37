@@ -51,30 +51,30 @@
           <h2 class="visualy-hidden">Сортировка по критериям</h2>
           <form class="filter-form" action="https://echo.htmlacademy.ru/courses" method="get">
             <fieldset class="filter-group">
-              <legend>Инфраструктура:</legend>
+              <legend class="filter-title">Инфраструктура:</legend>
               <ul class="filter-list">
                 <li class="filter-item">
                   <label class="filter-lable">
-                    <input class="filter-input" type="checkbox" name="swimming-pool">
+                    <input class="filter-input" type="checkbox" name="swimming-pool" value="swimming-pool">
                     Бассейн
                   </label>
                 </li>
                 <li class="filter-item">
                   <label class="filter-lable">
-                    <input class="filter-input" type="checkbox" name="parking">
+                    <input class="filter-input" type="checkbox" name="parking" value="parking">
                     Парковка
                   </label>
                 </li>
                 <li class="filter-item">
                   <label class="filter-lable">
-                    <input class="filter-input" type="checkbox" name="wi-fi">
+                    <input class="filter-input" type="checkbox" name="wi-fi" value="wi-fi">
                     Wi-Fi
                   </label>
                 </li>
               </ul>
             </fieldset>
             <fieldset class="filter-group">
-              <legend>Тип жилья:</legend>
+              <legend class="filter-title">Тип жилья:</legend>
               <ul class="filter-list">
                 <li class="filter-item">
                   <lable class="filter-lable">
@@ -96,6 +96,23 @@
                 </li>
               </ul>
             </fieldset>
+            <fieldset class="filter-group">
+              <legend class="filter-title">Стоимость, ₽:</legend>
+              <div class="range-input-wrapper">
+                <lable class="filter-lable">
+                  <span class="filter-lable-wrapper">от</span>
+                  <input class="range-input input-min" type="number" name="min-prise" value="0">
+                </lable>
+                <lable class="filter-lable">
+                  <span class="filter-lable-wrapper">до</span>
+                  <input class="range-input input-max" type="number" name="max-prise" value="1600">
+                </lable>
+              </div>
+            </fieldset>
+            <div class="filter-button-wrapper">
+              <button class="filter-button filter-button-submit" type="submit">Применить</button>
+              <button class="filter-button filter-button-reset" type="reset">Сбросить</button>
+            </div>
           </form>
         </div>
       </section>
