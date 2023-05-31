@@ -36,8 +36,59 @@
 
     <main class="main-cataloge">
       <section class="filter">
-        <h1>Гостиницы Седоны</h1>
+        <h1 class="cataloge-title">Гостиницы Седоны</h1>
+        <ul class="breadcrumbs-list">
+          <li class="breadcrumbs-item">
+            <a class="breadcrumbs-link">
+              <span class="visualy-hidden">Главная страница</span>
+            </a>
+          </li>
+          <li class="breadcrumbs-item">
+            <span class="breadcrumbs-point">Гостиницы</span>
+          </li>
+        </ul>
+        <div class="filter-wrapper Infrastructure-wrapper">
+          <h2 class="visualy-hidden">Сортировка по критериям</h2>
+          <form class="filter-form" action="https://echo.htmlacademy.ru/courses" method="get">
+            <fieldset class="filter-group">
+              <legend>Инфраструктура:</legend>
+              <ul class="filter-list">
+                <li class="filter-item">
+                  <label class="filter-lable">
+                    <input class="filter-input" type="checkbox" name="swimming-pool">
+                    Бассейн
+                  </label>
+                </li>
+                <li class="filter-item">
+                  <label class="filter-lable">
+                    <input class="filter-input" type="checkbox" name="parking">
+                    Парковка
+                  </label>
+                </li>
+                <li class="filter-item">
+                  <label class="filter-lable">
+                    <input class="filter-input" type="checkbox" name="wi-fi">
+                    Wi-Fi
+                  </label>
+                </li>
+              </ul>
+            </fieldset>
+            <fieldset class="filter-group">
+              <legend>Тип жилья:</legend>
+              <ul class="filter-list">
+                <li class="filter-item">
 
+                </li>
+                <li class="filter-item">
+
+                </li>
+                <li class="filter-item">
+
+                </li>
+              </ul>
+            </fieldset>
+          </form>
+        </div>
       </section>
       <section class="cataloge">
 
@@ -66,13 +117,13 @@
             </li>
             <li class="social-navigation-item">
               <a class="social-link" href="https://t.me/htmlacademy">
-                <span class="visualy-hidden">Telegram</span>
+                <span class="visualy-hidden" lang="en">Telegram</span>
                 <img class="telegram-logo" src="#" alt="Telegram">
               </a>
             </li>
             <li class="social-navigation-item">
               <a class="social-link" href="https://www.youtube.com/user/htmlacademyru">
-                <span class="visualy-hidden">YouTube</span>
+                <span class="visualy-hidden" lang="en">YouTube</span>
                 <img class="youtube-logo" src="#" alt="YouTube">
               </a>
             </li>
@@ -86,7 +137,7 @@
       <section class="footer-copiright">
         <h2 class="visualy-hidden">Об авторе:</h2>
         <a class="copiright-link" href="https://htmlacademy.ru/">
-          <span class="visualy-hidden">HTML Academy</span>
+          <span class="visualy-hidden" lang="en">HTML Academy</span>
           <img class="copiright-logo" src="#" alt="HTML Academy">
         </a>
       </section>
