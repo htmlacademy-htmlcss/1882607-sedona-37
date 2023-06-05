@@ -1,0 +1,196 @@
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/ptsans-400.woff2");
+}
+
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/ptsans-700.woff2");
+}
+
+header {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.visually-hidden {
+  visibility: hidden;
+}
+
+body {
+  font-family: "PT Sans";
+  background-color: rgba(242, 242, 242, 1);
+  color: rgba(0, 0, 0, 1);
+}
+
+main {
+  text-align: center;
+}
+
+header {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  background-color: rgba(255, 255, 255, 1);
+}
+
+section {
+  width: 1200px;
+  background-color: rgba(255, 255, 255, 1);
+  margin: 0 auto;
+}
+
+button.button-brown {
+  background-color: rgba(117, 97, 87, 1);
+  color: rgba(255, 255, 255, 1);
+  text-transform: uppercase;
+  text-align: center;
+  border: none;
+}
+
+button.page-header-button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+section.hero {
+  background-image: url("../images/index-background.jpg");
+  width: 1200px;
+  height: 485px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+section.hero::after {
+  content: url("../images/divider.svg");
+  width: 1200px;
+  height: 57px;
+}
+
+div.slogan-wrapper {
+  width: 651px;
+  margin: 0 auto;
+}
+
+p.slogan-title {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+p.slogan-descrption {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+  text-align: center;
+  color: rgba(51, 51, 51, 1);
+}
+
+li {
+  list-style-type: none;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+h3.advantages-title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+p.advantsges-description {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  color: rgba(51, 51, 51, 1);
+}
+
+div.wrapper-dark-blue {
+  color: rgba(255, 255, 255, 1);
+  background-color: rgba(130, 179, 211, 1);
+}
+
+div.wrapper-dark-blue p {
+  color:rgba(255, 255, 255, 1);
+}
+
+div.wrapper-light-blue {
+  background-color: rgba(131, 179, 211, 0.12);
+}
+
+div.wrapper-blue {
+  background-color: rgba(131, 179, 211, 0.2);
+}
+
+h3.recommendation-title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+}
+
+p.recommendation-description {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: rgba(51, 51, 51, 1);
+}
+
+main.main-index section.subscribe {
+  background-image: url("../images/subscribe-background.jpg");
+  background-repeat: no-repeat;
+  color:rgba(255, 255, 255, 1);
+}
+
+section.subscribe {
+  height: 415px;
+}
+
+h2.subscribe-title {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 36px;
+  text-transform: uppercase;
+}
+
+p.subscribe-description {
+
+}
+
+input.mailing-input {
+  background-color: rgba(242, 242, 242, 1);
+  border: none;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+button.mailing-button {
+  background-color: rgba(130, 179, 211, 1);
+  color: rgba(255, 255, 255, 1);
+  border: none;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 36px;
+  text-transform: uppercase;
+}
+
+a.contact-link {
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 40px;
+  color:rgba(0, 0, 0, 1);
+}
