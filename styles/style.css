@@ -196,6 +196,7 @@ p.slogan-descrption {
 .subscribe-description {
   font-size: 22px;
   line-height: 26px;
+  color:rgba(255, 255, 255, 1);
 }
 
 .mailing-input {
@@ -349,6 +350,6 @@ li.pagination-item:first-child a {
   text-align: center;
 }
 
-.subscribe-description {
+.subscribe-cataloge .subscribe-description {
   color:rgba(51, 51, 51, 1);
 }
