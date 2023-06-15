@@ -1,0 +1,355 @@
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../fonts/ptsans-400.woff2");
+}
+
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("../fonts/ptsans-700.woff2");
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: rgba(0, 0, 0, 1);
+  background-color: rgba(242, 242, 242, 1);
+}
+
+.main-index {
+  text-align: center;
+}
+
+.navigation ul,
+.advantages ul,
+.recommendations ul,
+.social-navigation ul {
+  padding: 0;
+}
+
+.navigation-list li,
+.advantages-list li,
+.recommendation-list li,
+.social-navigation-list li,
+.user-navigation-list li,
+.filter li,
+.product-cards li,
+.pagination-list li {
+  list-style-type: none;
+}
+
+.navigation a,
+.page-footer a,
+.product-cards a,
+.pagination-list a {
+  color:inherit;
+  text-decoration: none;
+}
+
+.navigation a:visited,
+.page-footer a:visited,
+.product-cards a:visited {
+  color: inherit;
+}
+
+.page-wrapper {
+  width: 1200px;
+  margin: 0 auto;
+  background-color: rgba(255, 255, 255, 1);
+  margin-bottom: -30px;
+}
+
+.page-header {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.visually-hidden {
+  visibility: hidden;
+}
+
+.button-brown {
+  background-color: rgba(117, 97, 87, 1);
+}
+
+.button-blue {
+  background-color: rgba(130, 179, 211, 1);
+}
+
+.button {
+  border: none;
+  color: rgba(255, 255, 255, 1);
+  font-family: "PT Sans", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.button-little {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.button-large {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 36px;
+}
+
+.product-card-list a.button {
+  color:rgba(255, 255, 255, 1);
+}
+
+.hero {
+  height: 485px;
+  background: url("../images/divider.svg"), url("../images/index-background.jpg"),
+  linear-gradient(to top,
+  rgba(26,41,49,1) 0%,
+  rgba(129,179,211,1) 37%,
+  rgba(225,238,246,1) 78%);
+  background-repeat: no-repeat;
+  background-position: bottom, center;
+}
+
+p.slogan-title {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+}
+
+p.slogan-descrption {
+  font-size: 22px;
+  line-height: 26px;
+  color: rgba(51, 51, 51, 1);
+}
+
+.advantages-title,
+.recommendation-title,
+.product-card-title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.wrapper-blue {
+  background-color: rgba(131, 179, 211, 0.2);
+}
+
+.wrapper-light-blue {
+  background-color: rgba(131, 179, 211, 0.12);
+}
+
+.wrapper-dark-blue {
+  background-color: rgba(130, 179, 211, 1);
+  color: rgba(255, 255, 255, 1);
+}
+
+.wrapper-dark-blue > .advantsges-description {
+  color:rgba(255, 255, 255, 1);
+}
+
+.advantages-title {
+  text-transform: uppercase;
+}
+
+.recommendation-title {
+  text-transform: uppercase;
+}
+
+.advantsges-description,
+.recommendation-description {
+  font-size: 18px;
+  line-height: 21px;
+  color:rgba(51, 51, 51, 1);
+}
+
+.subscribe {
+  background-image: url(../images/subscribe-background.jpg);
+  background-repeat: no-repeat;
+  color:rgba(255, 255, 255, 1);
+  background-color: rgba(51, 51, 51, 1);
+  height: 414.86px;
+}
+
+.subscribe-title {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+}
+
+.subscribe-description {
+  font-size: 22px;
+  line-height: 26px;
+  color:rgba(255, 255, 255, 1);
+}
+
+.mailing-input {
+  font-family: inherit;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.contact-link {
+  color: inherit;
+  font-size: 40px;
+  line-height: 40px;
+  text-decoration: none;
+}
+
+.youtube-link {
+  background-image: url(../images/links/youtube.svg);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+.tg-link {
+  background-image: url(../images/links/telegram.svg);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+.vk-link {
+  background-image: url(../images/links/vk.svg);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+.filter-main-wrapper {
+  background-image: url(../images/cataloge/cataloge-background.jpg);
+  background-repeat: no-repeat;
+  color: rgba(255, 255, 255, 1);
+  background-color:rgba(51, 51, 51, 1);
+}
+
+.cataloge-title {
+  font-size: 60px;
+  line-height: 78px;
+}
+
+.breadcrumbs-main {
+  background-image: url(../images/breadcrumbs-main.svg);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+.breadcrumbs-point {
+  font-size: 16px;
+  line-height: 21px;
+}
+
+.filter-title {
+  font-family: inherit;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.filter-lable {
+  font-size: 18px;
+  line-height: 23px;
+}
+
+.filter-lable-wrapper {
+  font-size: 18px;
+  line-height: 24px;
+  text-align: right;
+}
+
+.range-input {
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.filter-button-reset {
+  background: none;
+}
+
+.filter-results {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+}
+
+.product-info {
+  font-size: 18px;
+  line-height: 21px;
+  color:rgba(51, 51, 51, 1);
+}
+
+.product-price {
+  text-align: right;
+}
+
+.results-select {
+  color: rgba(51, 51, 51, 1);
+  font-family: inherit;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.display-cards {
+  background-image: url(../images/cards.svg);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+.display-full {
+  background-image: url(../images/full.svg);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+.display-list {
+  background-image: url(../images/list.svg);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+.product-info-raiting {
+  font-size: 16px;
+  line-height: 20px;
+  color: rgba(51, 51, 51, 1);
+  text-transform: uppercase;
+}
+
+a.pagination-link {
+  background-color: rgba(130, 179, 211, 1);
+  color: rgba(255, 255, 255, 1);
+  font-size: 20px;
+  line-height: 36px;
+  font-weight: 700;
+  text-align: center;
+}
+
+li.pagination-item:first-child a {
+  background-color: rgba(242, 242, 242, 1);
+  color: rgba(0, 0, 0, 1);
+}
+
+.subscribe-cataloge {
+  background-image: none;
+  background-color: rgba(255, 255, 255, 1);
+  color: rgba(0, 0, 0, 1);
+  text-align: center;
+}
+
+.subscribe-cataloge .subscribe-description {
+  color:rgba(51, 51, 51, 1);
+}
