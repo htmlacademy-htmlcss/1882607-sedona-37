@@ -422,7 +422,7 @@ p.slogan-descrption {
   background-repeat: no-repeat;
   color: rgba(255, 255, 255, 1);
   background-color:rgba(51, 51, 51, 1);
-  padding: 35px 70px 70px 70px;
+  padding: 35px 70px 54px 70px;
 }
 
 .cataloge-title {
@@ -435,6 +435,8 @@ p.slogan-descrption {
 .breadcrumbs-list {
   display: flex;
   justify-content: flex-start;
+  flex-wrap: wrap;
+  margin-block-end: 40px;
 }
 
 .breadcrumbs-main {
@@ -465,11 +467,16 @@ p.slogan-descrption {
   margin: 0;
 }
 
+.filter-item {
+  margin-block-end: 16px;
+}
+
 .filter-title {
   font-family: inherit;
   font-size: 20px;
   font-weight: 700;
   line-height: 24px;
+  margin-block-end: 32px;
 }
 
 .filter-lable {
@@ -493,7 +500,7 @@ p.slogan-descrption {
 .filter-button-wrapper {
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
+  justify-content: flex-start;
 }
 
 .filter-button {
@@ -544,11 +551,29 @@ p.slogan-descrption {
   text-align: right;
 }
 
+.results-select-wrapper {
+  flex-grow: 1;
+  display: flex;
+  justify-content: flex-end;
+  margin-inline-end: 62px;
+}
+
 .results-select {
   color: rgba(51, 51, 51, 1);
   font-family: inherit;
   font-size: 18px;
   line-height: 21px;
+  width: 292px;
+  height: 49px;
+}
+
+.results-display-wrapper {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.display-button {
+  margin-inline-start: 8px;
 }
 
 .display-cards {
