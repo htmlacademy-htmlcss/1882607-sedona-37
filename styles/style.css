@@ -522,7 +522,7 @@ p.slogan-descrption {
   text-transform: uppercase;
   color:rgba(0, 0, 0, 1);
   display: flex;
-  align-content: center;
+  align-items: center;
 }
 
 .display-button {
@@ -569,12 +569,22 @@ p.slogan-descrption {
   background-position: 50% 50%;
 }
 
+.product-card-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-block-start: 40px;
+  padding-block-end: 19px;
+  border-bottom: 1px solid rgba(230, 230, 230, 1);
+}
+
 .product-card-item {
   width: 340px;
   min-height: 438px;
   border: 1px solid #E6E6E6;
   border-radius: 4px;
   padding: 20px;
+  margin-block-end: 20px;
 }
 
 .product-info-wrapper {
@@ -607,12 +617,24 @@ p.slogan-descrption {
   line-height: 20px;
 }
 
+.pagination-container {
+  margin-block-start: 40px;
+}
+
 .pagination-list {
   display: flex;
 }
 
 .pagination-item {
   margin-inline-end: 8px;
+  width: 60px;
+  height: 60px;
+  text-align: center;
+}
+
+.pagination-item > span {
+  font-size: 22px;
+  line-height: 26px;
 }
 
 a.pagination-link {
