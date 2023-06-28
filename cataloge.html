@@ -41,8 +41,8 @@
           <div class="filter-main-wrapper">
             <h1 class="cataloge-title">Гостиницы Седоны</h1>
             <ul class="list breadcrumbs-list">
-              <li class="breadcrumbs-item breadcrumbs-main">
-                <a class="breadcrumbs-link" href="index.html">
+              <li class="breadcrumbs-item">
+                <a class="breadcrumbs-link breadcrumbs-main" href="index.html">
                   <span class="visually-hidden">Главная страница</span>
                 </a>
               </li>
@@ -51,73 +51,71 @@
               </li>
             </ul>
             <h2 class="visually-hidden">Сортировка по критериям</h2>
-            <div class="filter-wrapper Infrastructure-wrapper">
-              <form class="filter-form" action="https://echo.htmlacademy.ru/courses" method="get">
-                <fieldset class="filter-group">
-                  <legend class="filter-title">Инфраструктура:</legend>
-                  <ul class="list filter-list">
-                    <li class="filter-item">
-                      <label class="filter-lable">
-                        <input class="filter-input" type="checkbox" name="swimming-pool" value="swimming-pool">
-                        Бассейн
-                      </label>
-                    </li>
-                    <li class="filter-item">
-                      <label class="filter-lable">
-                        <input class="filter-input" type="checkbox" name="parking" value="parking">
-                        Парковка
-                      </label>
-                    </li>
-                    <li class="filter-item">
-                      <label class="filter-lable">
-                        <input class="filter-input" type="checkbox" name="wi-fi" value="wi-fi">
-                        Wi-Fi
-                      </label>
-                    </li>
-                  </ul>
-                </fieldset>
-                <fieldset class="filter-group">
-                  <legend class="filter-title">Тип жилья:</legend>
-                  <ul class="list filter-list">
-                    <li class="filter-item">
-                      <label class="filter-lable">
-                        <input class="filter-input" type="radio" name="type-of-housing" value="hotel">
-                        Гостиница
-                      </label>
-                    </li>
-                    <li class="filter-item">
-                      <label class="filter-lable">
-                        <input class="filter-input" type="radio" name="type-of-housing" value="motel">
-                        Мотель
-                      </label>
-                    </li>
-                    <li class="filter-item">
-                      <label class="filter-lable">
-                        <input class="filter-input" type="radio" name="type-of-housing" value="apartment">
-                        Апартаменты
-                      </label>
-                    </li>
-                  </ul>
-                </fieldset>
-                <fieldset class="filter-group">
-                  <legend class="filter-title">Стоимость, ₽:</legend>
-                  <div class="range-input-wrapper">
+            <form class="filter-form" action="https://echo.htmlacademy.ru/courses" method="get">
+              <fieldset class="filter-group">
+                <legend class="filter-title">Инфраструктура:</legend>
+                <ul class="list filter-list">
+                  <li class="filter-item">
                     <label class="filter-lable">
-                      <input class="range-input input-min" type="number" name="min-prise" value="0">
-                      <span class="filter-lable-wrapper">от</span>
+                      <input class="filter-input" type="checkbox" name="swimming-pool" value="swimming-pool">
+                      Бассейн
                     </label>
+                  </li>
+                  <li class="filter-item">
                     <label class="filter-lable">
-                      <input class="range-input input-max" type="number" name="max-prise" value="12000">
-                      <span class="filter-lable-wrapper">до</span>
+                      <input class="filter-input" type="checkbox" name="parking" value="parking">
+                      Парковка
                     </label>
-                  </div>
-                </fieldset>
-                <div class="filter-button-wrapper">
-                  <button class="button filter-button filter-button-submit button-little button-blue" type="submit">Применить</button>
-                  <button class="button filter-button filter-button-reset button-little" type="reset">Сбросить</button>
+                  </li>
+                  <li class="filter-item">
+                    <label class="filter-lable">
+                      <input class="filter-input" type="checkbox" name="wi-fi" value="wi-fi">
+                      Wi-Fi
+                    </label>
+                  </li>
+                </ul>
+              </fieldset>
+              <fieldset class="filter-group">
+                <legend class="filter-title">Тип жилья:</legend>
+                <ul class="list filter-list">
+                  <li class="filter-item">
+                    <label class="filter-lable">
+                      <input class="filter-input" type="radio" name="type-of-housing" value="hotel">
+                      Гостиница
+                    </label>
+                  </li>
+                  <li class="filter-item">
+                    <label class="filter-lable">
+                      <input class="filter-input" type="radio" name="type-of-housing" value="motel">
+                      Мотель
+                    </label>
+                  </li>
+                  <li class="filter-item">
+                    <label class="filter-lable">
+                      <input class="filter-input" type="radio" name="type-of-housing" value="apartment">
+                      Апартаменты
+                    </label>
+                  </li>
+                </ul>
+              </fieldset>
+              <fieldset class="filter-group">
+                <legend class="filter-title">Стоимость, ₽:</legend>
+                <div class="range-input-wrapper">
+                  <label class="filter-lable">
+                    <input class="range-input input-min" type="number" name="min-prise" value="0">
+                    <span class="filter-lable-wrapper">от</span>
+                  </label>
+                  <label class="filter-lable">
+                    <input class="range-input input-max" type="number" name="max-prise" value="12000">
+                    <span class="filter-lable-wrapper">до</span>
+                  </label>
                 </div>
-              </form>
-            </div>
+              </fieldset>
+              <div class="filter-button-wrapper">
+                <button class="button filter-button filter-button-submit button-little button-blue" type="submit">Применить</button>
+                <button class="button filter-button filter-button-reset button-little" type="reset">Сбросить</button>
+              </div>
+            </form>
           </div>
         </section>
         <div class="cataloge-wrapper">
