@@ -1145,6 +1145,7 @@ li.pagination-item:first-child a {
 
 .range-input {
   padding-inline: 20px 40px;
+  -moz-appearance:textfield;
 }
 
 .range-input::-webkit-outer-spin-button,
@@ -1438,6 +1439,7 @@ li.pagination-item:first-child a {
   padding-block: 14px;
   border-radius: 0;
   text-align: center;
+  -moz-appearance:textfield;
 }
 
 .number-input::-webkit-inner-spin-button,
